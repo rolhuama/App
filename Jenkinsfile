@@ -8,7 +8,7 @@ pipeline {
             }
             steps {
                 sh 'chmod +x build.sh'
-		sh 'docker login -u rolervengador -p Roler100'
+		sh 'docker login -u rolervengador -p Roler100.'
                 sh './build.sh'
             }
         }
